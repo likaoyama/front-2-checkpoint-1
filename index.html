@@ -10,20 +10,35 @@
 </head>
 <body>
     <h1>Minhas Séries</h1>
-    <form>
-        <label for="titulo">Título</label>
-        <input name="titulo" type="text" 
-        required="Por favor, insira o nome da série"/>
-        
-        <label for="descricao">Descrição</label>
-        <input name="descricao" type="text"
-        required="Por favor, insira a descrição da série" />
-        
-        <label for="url">URL da Imagem</label>
-        <input name="url" type="url" placeholder="Insira aqui o URL da imagem da série"
-        required="Por favor, insira o URL da imagem" />
-        
-        <button type="submit" value="Enviar">Enviar</button>
-    </form>
+    <p>
+        Vamos adicionar as séries!
+    </p>
+        <div class="container">
+            <form>
+                <label for="titulo">Título</label>
+                <input 
+                name="titulo" 
+                type="text" 
+                placeholder="Insira aqui o título da série"
+                required="Por favor, insira o nome da série"/><br>
+                
+                <label for="descricao">Descrição</label>
+                <input 
+                name="descricao" 
+                type="text"
+                placeholder="Insira aqui a descrição da imagem da série"
+                required="Por favor, insira a descrição da série" /><br>
+                
+                <label for="url">URL da Imagem</label>
+                <input 
+                name="url" 
+                type="url" 
+                placeholder="Insira aqui o URL da imagem da série"
+                required="Por favor, insira o URL da imagem" /><br>
+                
+                <button type="submit" value="Enviar">Enviar</button>
+            </form>
+        </div>
+    <hr>
 </body>
 </html>
