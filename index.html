@@ -6,20 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minhas Séries</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <h1>Minhas Séries</h1>
     <form>
         <label for="titulo">Título</label>
-        <input name="titulo" type="text" />
+        <input name="titulo" type="text" 
+        required="Por favor, insira o nome da série"/>
         
         <label for="descricao">Descrição</label>
-        <input name="descricao" type="text" />
+        <input name="descricao" type="text"
+        required="Por favor, insira a descrição da série" />
         
-        <label for="placeholder">URL da Imagem</label>
-        <input type="text" placeholder="Insira aqui o URL da imagem da série" />
+        <label for="url">URL da Imagem</label>
+        <input name="url" type="url" placeholder="Insira aqui o URL da imagem da série"
+        required="Por favor, insira o URL da imagem" />
         
-        <button type="submit">Enviar</button>
+        <button type="submit" value="Enviar">Enviar</button>
     </form>
 </body>
 </html>
