@@ -1,4 +1,4 @@
-let series = require('./series.js');
+let series = require('./series');
 
 window.onload = function() {
     document.getElementsByTagName('input')[0].value = series.titulo;
